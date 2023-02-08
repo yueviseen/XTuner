@@ -36,5 +36,5 @@ tune_cloud_MySQL的文件说明：
 (8) rev_sort.py 和 rev_sort_other.py 使目前尝试的一些优化方法， 目前对XTuner的正常运行没有任何影响。
 
 
-因此运行XTuner, 可以直接运行 Rular_for_mysql_sar_24.py。
+因此运行XTuner, 可以直接运行 Rular_for_mysql_sar_24.py。注意有些配置需要根据自己机器的情况进行适当调整，比如数据库启动命令，sar收集的信息记录的位置， 链接数据库的ip.这些配置大都记录在ip_24.py文件中。
 
