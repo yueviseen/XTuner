@@ -33,10 +33,13 @@ An Interpretable Database Tuning Tool based on Knob Categorization
 
     (7) Rular_for_oltp_24.py Mainly records how to make data recovery and use the function of multi-threaded record running information
 
-    (8) rev_sort.py and rev_sort_other.py are some optimization methods tried so far, which have no effect on the normal operation of XTuner.
+    (8) rev_sort.py and rev_sort_other.py are some optimization methods tried so far, which have no effect on the normal 
+    operation of XTuner.
 
 
-    Therefore, to run XTuner, you can directly run Rular_for_mysql_sar_24.py. Note that some configurations need to be adjusted according to your machine, such as the database start command, the location of the sar collection information logging, and the linking database ip. These configurations are mostly recorded in the ip_24.py file.
+    Therefore, to run XTuner, you can directly run Rular_for_mysql_sar_24.py. Note that some configurations need to be adjusted 
+    according to your machine, such as the database start command, the location of the sar collection information logging, 
+    and the linking database ip. These configurations are mostly recorded in the ip_24.py file.
 
 
 (中文版) tune_cloud_PG 的文件说明：
@@ -74,7 +77,8 @@ An Interpretable Database Tuning Tool based on Knob Categorization
     (8) rev_sort.py 和 rev_sort_other.py 使目前尝试的一些优化方法， 目前对XTuner的正常运行没有任何影响。
 
 
-    因此运行XTuner, 可以直接运行 Rular_for_mysql_sar_24.py。注意有些配置需要根据自己机器的情况进行适当调整，比如数据库启动命令，sar收集的信息记录的位置， 链接数据库的ip.这些配置大都记录在ip_24.py文件中。
+    因此运行XTuner, 可以直接运行 Rular_for_mysql_sar_24.py。注意有些配置需要根据自己机器的情况进行适当调整，
+    比如数据库启动命令，sar收集的信息记录的位置， 链接数据库的ip.这些配置大都记录在ip_24.py文件中。
 
 
 
